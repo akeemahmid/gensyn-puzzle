@@ -19,5 +19,10 @@
   "client",
   "trust",
   "prompt",
-  "tester"
+  "tester",
+  "proof",
+  "judge",
+  "noloco",
+  "ant",
+  "gswarm"
 ]

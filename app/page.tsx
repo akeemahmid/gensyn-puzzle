@@ -101,7 +101,7 @@ const Home = observer(() => {
                     ? "💀 You lost! Try again"
                     : `Guess the ${store.wordLength}-letter word`}
                 </div>
-
+                    <h2 className="font-semibold text-lg italic">The answer is <span className="font-bold capitalize">{store.word}</span> </h2>
                 {(store.won || store.lost) && (
                   <button
                     onClick={() => {
